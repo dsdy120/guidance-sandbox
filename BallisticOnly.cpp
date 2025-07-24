@@ -5,8 +5,8 @@
 // Constants
 constexpr double mu = 398600.4418; // km^3/s^2
 constexpr int K = 4;               // AM-4
-constexpr double dt = 10.0;        // time step (s)
-constexpr int steps = 10000;       // number of steps to simulate
+constexpr double dt = 0.10;        // time step (s)
+constexpr int steps = 1000000;       // number of steps to simulate
 
 // AM-4 coefficients (predictor = x + dt * sum(ak[i] * dx[i]))
 constexpr double ak[3] = {-1.0/12, 2.0/3, 5.0/12};
